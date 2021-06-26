@@ -23,7 +23,7 @@ production:
   pool: 5
   database: microposts_production
   username: root
-  password:
+  password: <%= ENV['MICROPOSTS_DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
