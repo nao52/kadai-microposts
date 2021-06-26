@@ -23,7 +23,7 @@ production:
   pool: 5
   database: microposts-of-nao_production
   username: microposts-of-nao
-  password: <%= ENV['MICROPOSTS-OF-NAO_DATABASE_PASSWORD'] %>
+  password: 
 
 development:
   <<: *default
