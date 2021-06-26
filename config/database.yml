@@ -21,9 +21,9 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: microposts_production
-  username: root
-  password: <%= ENV['MICROPOSTS_DATABASE_PASSWORD'] %>
+  database: microposts-of-nao_production
+  username: microposts-of-nao
+  password: <%= ENV['MICROPOSTS-OF-NAO_DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
